@@ -1,0 +1,17 @@
+body {
+  font-family: "roboto";
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue {
+  background-color: #1F2937;
+}
