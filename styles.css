@@ -1,5 +1,6 @@
 body {
   font-family: "roboto";
+  margin: 0;
 }
 
 ul {
@@ -38,10 +39,27 @@ a {
   font-size: 18px;
   color: #E5E7EB;
 }
+
  .hero {
   margin: 0 5rem;
   max-width: 80rem;
   display: flex;
+ }
+
+ .hero-left {
+   gap: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .hero-left button {
+   border: none;
+   border-radius: 5px;
+   align-self: flex-start;
+   color: white;
+   background-color: #3882F6;
+   padding: 8px 30px;
  }
 
  .hero-left,
@@ -51,4 +69,18 @@ a {
 
 .hero-right img {
   width: 100%;
+}
+
+.hero-left > * {
+  margin: 0;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.sub-text {
+  color: #F9FAF8;
 }
