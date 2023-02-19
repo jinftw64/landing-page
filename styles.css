@@ -14,4 +14,41 @@ a {
 
 .blue {
   background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin: 0 5rem;
+  max-width: 80rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  gap: 2rem;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+ .hero {
+  margin: 0 5rem;
+  max-width: 80rem;
+  display: flex;
+ }
+
+ .hero-left,
+ .hero-right {
+  flex: 0 0 50%;
+ }
+
+.hero-right img {
+  width: 100%;
 }
