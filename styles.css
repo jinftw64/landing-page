@@ -86,3 +86,19 @@ a {
 .sub-text {
   color: #F9FAF8;
 }
+
+.white {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-info {
+  display: flex;
+}
+
+.image-box {
+  height: 150px;
+  width: 150px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
